@@ -1,4 +1,50 @@
 /* место для вашего кода */
 .header {
   display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 95px 50px 100px 50px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 129px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  align-items: flex-start;
+  max-width: 240px;
+}
+
+.address {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
 }
