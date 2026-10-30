@@ -85,7 +85,7 @@
   font-size: 100px;
   margin: 165px 50px 106px 50px;
   color: #ffffff;
-  letter-spacing: 28%;
+  letter-spacing: 28px;
   line-height: 127px;
 }
 
@@ -315,12 +315,14 @@
   border-bottom: none;
 }
 
-.footer__social-list {
+
+
+.footer__social-list-item {
   display: flex;
   gap: 48px;
 }
 
-.footer__social-list-item {
+.footer__social-link {
   width: 48px;
   height: 48px;
 }
