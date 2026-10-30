@@ -20,10 +20,12 @@
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
+  border-bottom: 1px solid black;
 }
 
 .header__link_active {
   text-decoration: none;
+  border-bottom: none;
 }
 
 .header__logo {
@@ -41,6 +43,14 @@
   justify-self: end;
   align-items: flex-start;
   max-width: 240px;
+}
+
+.header__address-tel {
+  border-bottom: 1px solid black;
+}
+
+.header__address-email {
+  border-bottom: 1px solid black;
 }
 
 .address {
@@ -126,4 +136,95 @@
   color: #ffffff;
   padding: 12px 32px 11px 31px;
   text-transform: uppercase;
+}
+
+.lots {
+  margin: 180px 24px 120px 24px;
+}
+
+.lots__heading {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 100%;
+  margin: 0 0 27px 40px;
+  
+}
+
+.lots__card-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+}
+
+.card-link,
+.card {
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.card_type_film {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(../images/card-lot-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_book {
+  background: url(../images/card-lot-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_picture {
+  background: url(../images/card-lot-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card__title {
+  z-index: 1;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 48px 40px 0 40px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.card__text {
+  z-index: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  padding: 0 40px 48px 40px;
+  color: #ffffff;
+}
+
+.lots__look-more-link {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px 0 0px 64px;
+  margin-bottom: 118px;
+  text-decoration: underline;
 }

@@ -27,6 +27,7 @@ blockquote {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img {
@@ -35,4 +36,13 @@ img {
 
 button {
   font: inherit;
+}
+
+ul,
+ol,
+li {
+  padding: none;
+  margin: none;
+  list-style: none;
+  text-decoration: none;
 }
